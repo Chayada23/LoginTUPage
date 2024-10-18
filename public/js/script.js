@@ -22,7 +22,7 @@ function submitLogin() {
         document.getElementById('displayname_en').innerText =  data.displayname_en;
         document.getElementById('email').innerText =  data.email;
         document.getElementById('department').innerText =  data.department;
-        document.getElementById('faculty').innerText =\ data.faculty;
+        document.getElementById('faculty').innerText = data.faculty;
     })
     .catch(error => console.error('Error:', error));
 }
